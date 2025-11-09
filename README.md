@@ -1,28 +1,34 @@
-⚡ Jobayer Hossain — Portfolio
+# ⚡ Jobayer Hossain — Portfolio  
+*A professional dark–neon themed personal portfolio.*
 
-A dark–neon styled personal portfolio built using HTML, CSS and JavaScript.
-Focused on clean structuring, smooth interactions, and a modern UI experience.
+A modern, clean, and performance-focused portfolio built using HTML, CSS, and JavaScript.  
+Designed with smooth transitions, structured layouts, and an elegant dark-neon interface.
 
-Live Preview:
+**Live Preview:**  
 https://jovayerhh.github.io/jobayer_portfolio/
 
-⚡ Features
+---
 
-Dark neon interface
+## ⚡ Features  
+*A second-level heading—highlights key functionality.*
 
-Smooth animations
+- Dark neon visual theme  
+- Smooth micro-interactions and animations  
+- Fully responsive and mobile-friendly  
+- JavaScript-driven UI logic  
+- Lottie animation integration  
+- Three.js hero animation  
+- Includes Privacy, Terms, and Sitemap pages  
 
-Responsive layout
+---
 
-JavaScript-driven transitions
+## ⚡ Project Structure  
+*A second-level heading—showing repository layout.*
 
-Lottie animation support
+### Directory Tree  
+*A third-level heading—hierarchical structure.*
 
-Three.js hero animation
-
-Includes Privacy, Terms, and Sitemap pages
-
-⚡ Project Structure
+```
 /
 ├── assets
 │   ├── bg (1).jpg
@@ -33,7 +39,7 @@ Includes Privacy, Terms, and Sitemap pages
 │
 ├── css
 │   ├── style.css
-│   └── tailtailwind.css
+│   └── tailwind.css
 │
 ├── docs
 │   ├── design-notes.md
@@ -54,36 +60,49 @@ Includes Privacy, Terms, and Sitemap pages
 ├── script.js
 ├── style.css
 └── package-lock.json
+```
 
-⚡ Technology Used
+---
 
-HTML5
+## ⚡ Technology Used  
+*A second-level heading—tools used in the build.*
 
-CSS3 / Tailwind CSS
+### Languages & Tools  
+*A third-level heading—categorized technologies.*
 
-JavaScript
+- **HTML5**  
+- **CSS3 / Tailwind CSS**  
+- **JavaScript**  
+- **Lottie Web Animations**  
+- **Three.js**  
 
-Lottie Web Animations
+---
 
-Three.js
+## ⚡ Pages  
+*A second-level heading—project endpoints.*
 
-⚡ Pages
+### Included Pages  
+*A third-level heading—page-level organization.*
 
-index.html — Main Portfolio
+- `index.html` — Main Portfolio  
+- `privacy.html` — Privacy Policy  
+- `terms.html` — Terms & Conditions  
+- `sitemap.html` — Sitemap  
 
-privacy.html — Privacy Policy
+---
 
-terms.html — Terms & Conditions
+## ⚡ Deployment  
+*A second-level heading—hosting information.*
 
-sitemap.html — Sitemap
+Deployed using **GitHub Pages** for fast and reliable static hosting.
 
-⚡ Deployment
-
-Hosted with GitHub Pages.
-
-URL:
+**URL:**  
 https://jovayerhh.github.io/jobayer_portfolio/
 
-⚡ License
+---
+
+## ⚡ License  
+*A second-level heading—usage terms.*
 
 Personal use permitted.
+
