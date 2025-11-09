@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jobayer Hossain — AI Developer & Prompt Engineer</title>
+  <meta name="description" content="Portfolio — Jobayer Hossain. AI-driven developer, prompt engineer. Production ML systems, interactive experiences." />
+  <meta name="theme-color" content="#00eaff" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Jobayer Hossain — AI Developer & Prompt Engineer" />
+  <meta property="og:description" content="AI-driven developer & prompt engineer. Portfolio with interactive, performance-first UI." />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Jobayer Hossain" />
+  <!-- Replace with your hosted image for better share cards -->
+  <meta property="og:image" content="assets/preview-card.png" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:creator" content="@your_twitter" />
+
+  <!-- 🌟 Favicon -->
+<link rel="icon" href="assets/icons/favicon.png" type="image/png" />
+<link rel="shortcut icon" href="assets/icons/favicon.png" type="image/png" />
+<meta name="theme-color" content="#00eaff" />
+<link rel="apple-touch-icon" sizes="180x180" href="assets/icons/favicon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+  
+  <!-- Main stylesheet (will provide next) -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Optional libs (deferred) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r155/three.min.js" defer></script>
+
+  <!-- Main script (will provide later) -->
+  <script src="js/main.js" defer></script>
+</head>
+
+<body>
+  <!-- 3D / Canvas background container (Three.js) -->
+  <div id="three-bg" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="container nav" role="navigation" aria-label="Main navigation">
+      <div class="brand" aria-hidden="false">
+        <h1 class="brand-title">Jobayer <span class="accent">Hossain</span></h1>
+        <p class="sr-only">Jobayer Hossain — AI developer & prompt engineer</p>
+      </div>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">🌙</button>
+        <button id="menuToggle" class="menu-toggle" aria-label="Toggle menu">☰</button>
+      </div>
+
+      <nav id="navLinks" class="nav-links" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section id="home" class="hero container" role="region" aria-label="Home — Hero">
+      <!-- parallax layers (optional images / canvases) -->
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-mid" aria-hidden="true"></div>
+      <div class="hero-fg" aria-hidden="true"></div>
+
+      <div class="hero-content">
+        <!-- Primary heading (animated per-character) -->
+        <h1 class="neon-heading">AI Meets Creativity</h1>
+
+        <p class="lead">
+          I'm <strong>Jobayer Hossain</strong>, an AI-driven developer & prompt engineer from Bangladesh — building production ML systems, developer tooling, and interactive experiences with modern motion design.
+        </p>
+
+        <div class="cta" role="group" aria-label="Hero call to action">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Hire Me</a>
+        </div>
+      </div>
+
+    <aside class="profile-wrapper" aria-label="Profile">
+      <div class="avatar auto-avatar">
+         <img
+          src="assets/photo.png"
+          alt="Jobayer Hossain Profile Photo"
+          class="avatar-overlay"
+          loading="lazy"
+          width="200"
+          height="200"
+        />
+      </div>
+      <p class="caption">AI Developer • Prompt Engineer</p>
+    </aside>
+
+
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section container" role="region" aria-label="About">
+      <h2 class="section-title">
+  About Me <span class="arrow">→</span>
+</h2>
+      <p>
+        I design and ship AI-first products — from prompt engineering toolkits to low-latency inference platforms. I focus on reliability, monitoring, and delightful UX.
+      </p>
+
+      <div class="info-grid">
+        <div class="info-card glass" aria-labelledby="edu-title">
+          <h3 id="edu-title">Education — ICST, Feni</h3>
+          <p>
+            Institute of Computer Science &amp; Technology (ICST), Feni — a technical institute offering diploma programs with practical coursework in computing and engineering.
+            For admissions, programs and official notices, visit the institute website.
+          </p>
+          <p>
+            <a href="https://icst.edu.bd" target="_blank" class="icst-link glass-btn">
+              <span class="material-icons-outlined">school</span>
+              <span>ICST Feni — Official Site</span>
+            </a>
+          </p>
+        </div>
+
+        <div class="info-card glass" aria-labelledby="contact-title">
+          <h3 id="contact-title">Contact</h3>
+          <p>
+            For professional inquiries, please use the contact actions (Call / WhatsApp / Email / Copy Email) in the Contact section. Direct phone numbers are not printed on the page for privacy.
+          </p>
+            <p>
+              
+             <a href="mailto:jovayerhossain0@gmail.com" class="email-link glass-btn" target="_blank">
+               <span class="material-icons-outlined">mail</span>
+               <span>Send Email</span>
+             </a>
+           </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section container" role="region" aria-label="Projects">
+      <h2 class="section-title">
+  Featured Projects <span class="arrow">→</span>
+</h2>
+      <div id="projectsGrid" class="projects-grid" aria-live="polite">
+        <!-- projects rendered by JS or fallback static cards -->
+        <article class="project-card glass">
+          <h3>AI Prompt Studio</h3>
+          <p>Interactive toolkit for prompt design, versioning and experiments — built for fast iteration.</p>
+          <p class="tags">React · Node · OpenAI</p>
+          <div><a href="#" class="btn btn-outline">View</a></div>
+        </article>
+
+        <article class="project-card glass">
+          <h3>Neural Portfolio</h3>
+          <p>3D-driven portfolio with GSAP and Three.js, focusing on performant animations and accessibility.</p>
+          <p class="tags">Three.js · GSAP · Performance</p>
+        </article>
+
+        <article class="project-card glass">
+          <h3>Smart Vision API</h3>
+          <p>Real-time image classification API with cloud autoscaling and observability.</p>
+          <p class="tags">FastAPI · Kubernetes · Redis</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section container" role="region" aria-label="Skills">
+      <h2 class="section-title">
+  Skills <span class="arrow">→</span>
+</h2>
+
+      <!-- Professional skill chips (icons link to official docs) -->
+      <div id="skillsList" class="skills-grid" aria-live="polite">
+        <!-- Example chips (you can add/remove items) -->
+        <a class="skill-chip" href="https://www.python.org/" target="_blank" rel="noopener" title="Python — Official">
+          <img class="skill-icon" alt="" src="https://cdn.simpleicons.org/python/3776AB" loading="lazy" />
+          <span>Python</span>
+        </a>
+
+        <a class="skill-chip" href="https://react.dev/" target="_blank" rel="noopener" title="React — Docs">
+          <img class="skill-icon" alt="" src="https://cdn.simpleicons.org/react/61DAFB" loading="lazy" />
+          <span>React</span>
+        </a>
+
+        <a class="skill-chip" href="https://nodejs.org/" target="_blank" rel="noopener" title="Node.js — Official">
+          <img class="skill-icon" alt="" src="https://cdn.simpleicons.org/node.js/43853D" loading="lazy" />
+          <span>Node.js</span>
+        </a>
+
+        <a class="skill-chip" href="https://www.docker.com/" target="_blank" rel="noopener" title="Docker — Official">
+          <img class="skill-icon" alt="" src="https://cdn.simpleicons.org/docker/2496ED" loading="lazy" />
+          <span>Docker</span>
+        </a>
+
+        <a class="skill-chip" href="https://kubernetes.io/" target="_blank" rel="noopener" title="Kubernetes — Official">
+          <img class="skill-icon" alt="" src="https://cdn.simpleicons.org/kubernetes/326CE5" loading="lazy" />
+          <span>Kubernetes</span>
+        </a>
+
+        <a class="skill-chip" href="https://threejs.org/" target="_blank" rel="noopener" title="Three.js">
+          <img class="skill-icon" alt="" src="https://cdn.simpleicons.org/three.js/FFFFFF" loading="lazy" />
+          <span>Three.js</span>
+        </a>
+
+        <a class="skill-chip" href="https://greensock.com/gsap/" target="_blank" rel="noopener" title="GSAP">
+          <img class="skill-icon" alt="" src="https://cdn.simpleicons.org/greensock/88CE02" loading="lazy" />
+          <span>GSAP</span>
+        </a>
+
+        <a class="skill-chip" href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank" rel="noopener" title="Machine Learning (Wiki)">
+          <img class="skill-icon" alt="" src="https://cdn.simpleicons.org/tensorflow/FF6F00" loading="lazy" />
+          <span>Machine Learning</span>
+        </a>
+      </div>
+    </section>
+
+ <section id="contact" class="section">
+  <div class="container">
+    <h2 class="section-title">
+  Get in Touch <span class="arrow">→</span>
+</h2>
+
+    <form id="contactForm" class="contact-form" autocomplete="off">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Tell me about your project..." required></textarea>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+      <p id="formStatus" class="form-status"></p>
+    </form>
+
+    <div class="contact-actions">
+      <a href="tel:01619504428" class="contact-btn"><span class="material-icons-outlined">call</span>Call</a>
+<a href="https://wa.me/8801619504428?text=Hi%20Jobayer!%20I%20found%20your%20portfolio%20and%20would%20like%20to%20connect."
+   target="_blank"
+   class="contact-btn whatsapp-btn"
+   aria-label="Chat on WhatsApp">
+   <span class="material-icons-outlined">chat</span>
+   WhatsApp
+</a>
+      <a href="mailto:jovayerhossain0@gmail.com" class="contact-btn"><span class="material-icons-outlined">email</span>Email</a>
+      <button class="contact-btn" id="copyEmail"><span class="material-icons-outlined">content_copy</span>Copy Email</button>
+    </div>
+  </div>
+</section>
+
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+  <p>© 2025 Jobayer Hossain — Built with care & AI.</p>
+  <div class="footer-links">
+    <a href="privacy.html">Privacy</a> ·
+    <a href="terms.html">Terms</a> ·
+    <a href="sitemap.html">Sitemap</a>
+  </div>
+  </footer>
+
+  <!-- Small inline helpers -->
+  <script>
+    // current year
+    document.getElementById("year").textContent = new Date().getFullYear();
+    // Add accessible focus ring for keyboard users
+    (function(){ const el = document.documentElement; function handleFirstTab(e){ if(e.key==='Tab'){ el.classList.add('show-focus'); window.removeEventListener('keydown',handleFirstTab); } } window.addEventListener('keydown', handleFirstTab); })();
+  </script>
+</body>
+</html>
