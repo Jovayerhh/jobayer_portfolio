@@ -1,56 +1,89 @@
-🌌 Personal Portfolio Website — Jobayer Hossain
+⚡ Jobayer Hossain — Portfolio
 
-A modern, stylish, and fully animated personal portfolio website built with clean HTML, CSS, and JavaScript.
-Designed with a dark neon blue theme, smooth motion effects, and a fully responsive layout for all devices.
+A dark–neon styled personal portfolio built using HTML, CSS and JavaScript.
+Focused on clean structuring, smooth interactions, and a modern UI experience.
 
-🚀 Features
+Live Preview:
+https://jovayerhh.github.io/jobayer_portfolio/
 
-Fully animated user interface
+⚡ Features
 
-Smooth page transitions
+Dark neon interface
 
-Dark, modern neon-themed UI
+Smooth animations
 
-Responsive for mobile, tablet, and desktop
+Responsive layout
 
-Stylish auto-generated profile photo frame
+JavaScript-driven transitions
 
-Sections:
+Lottie animation support
 
-About Me
+Three.js hero animation
 
-Skills
+Includes Privacy, Terms, and Sitemap pages
 
-Featured Projects
+⚡ Project Structure
+/
+├── assets
+│   ├── bg (1).jpg
+│   ├── chat.png
+│   ├── icons
+│   │   └── favicon.png
+│   └── photo.png
+│
+├── css
+│   ├── style.css
+│   └── tailtailwind.css
+│
+├── docs
+│   ├── design-notes.md
+│   └── requirements.md
+│
+├── js
+│   ├── lottie-init.js
+│   ├── main.js
+│   ├── three-hero.js
+│   └── transitions.js
+│
+├── libs
+│
+├── index.html
+├── privacy.html
+├── terms.html
+├── sitemap.html
+├── script.js
+├── style.css
+└── package-lock.json
 
-Get in Touch
-
-Clean code structure (HTML, CSS, JS separated)
-
-📁 Project Structure
-/assets
-    /css
-    /js
-    /images
-index.html
-about.html
-projects.html
-skills.html
-contact.html
-
-💡 Tech Used
+⚡ Technology Used
 
 HTML5
 
-CSS3 (Animations + Custom Shapes)
+CSS3 / Tailwind CSS
 
-JavaScript (Motion + Interactions)
+JavaScript
 
-🌍 Live Demo
+Lottie Web Animations
 
-(আপনি GitHub Pages এ লাইভ করার পর লিংকটি এখানে বসাতে পারবেন)
-https://username.github.io/portfolio/
+Three.js
 
-📩 Contact
+⚡ Pages
 
-If you'd like to get in touch, feel free to reach out through the Get in Touch section of the website.
+index.html — Main Portfolio
+
+privacy.html — Privacy Policy
+
+terms.html — Terms & Conditions
+
+sitemap.html — Sitemap
+
+⚡ Deployment
+
+Hosted with GitHub Pages.
+
+URL:
+https://jovayerhh.github.io/jobayer_portfolio/
+
+⚡ License
+
+Personal use permitted.
