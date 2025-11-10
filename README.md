@@ -5,8 +5,7 @@ A modern, clean, and performance-focused portfolio built using HTML, CSS, and Ja
 Designed with smooth transitions, structured layouts, and an elegant dark-neon interface.
 
 **Live Preview:**  
-https://jovayerhh.github.io/jobayer_portfolio/
-
+https://jobayerhossain-ai.github.io/jobayer_portfolio/
 ---
 
 ## ⚡ Features  
